@@ -41,6 +41,7 @@ class App extends React.Component{
       ))
     return(
       <div className='App'>
+           <h1>Covid19 Stats Web App</h1>
          <SearchBox placeholder="Enter country" handleChange={(e)=>this.setState({searchField:e.target.value})}/>
          < CountryList  stats={filteredCountries} />
       </div>
